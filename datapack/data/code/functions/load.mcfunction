@@ -36,6 +36,9 @@ scoreboard objectives modify bgm displayname {"bold":true,"color":"#DAD7F5","tex
 scoreboard objectives add IBC dummy
 
 scoreboard objectives add ClearWidthIBC dummy
+scoreboard objectives add SelfSnow dummy
+scoreboard objectives add SelfDivider dummy
+
 
 scoreboard objectives add IBCTime dummy
 scoreboard objectives add LeaderIBCTime dummy
@@ -45,6 +48,9 @@ scoreboard objectives add Temp dummy
 scoreboard objectives setdisplay sidebar leaderboardIBC
 
 scoreboard objectives add Coins dummy
+
+scoreboard objectives add Joined dummy
+scoreboard objectives add LeaveGame dummy
 
 scoreboard objectives add firstPlaceTime dummy
 
